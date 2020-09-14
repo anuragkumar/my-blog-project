@@ -15,7 +15,7 @@ const FixedNavBar = () =>
     <div className="container-fluid">
         <Router>
             <nav className="navbar fixed-top bg-transparent navbar-expand-lg justify-content-lg-between navbar-light bg-dark">
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="/myblog">
                     <FontAwesomeIcon className="blog-icons" icon='robot' color="#17a2b8" size="2x"/>
                     <span className="ml-2 text-info">keep coding</span>
                 </Link>
@@ -46,7 +46,7 @@ const FixedNavBar = () =>
                 </div>
             </nav>
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/myblog">
                     <Welcome/>
                     <HomeProjects/>
                     <HomeQuote1/>
