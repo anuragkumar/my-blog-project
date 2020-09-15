@@ -21,7 +21,7 @@ class Welcome extends React.Component{
                                 <div className="card-body bg-dark">
                                     <h1 className="card-title display-1">WELCOME <br/> I am Light Bot</h1>
                                     <p className="card-text">Sometimes we need push, sometimes we push ourselves!</p>
-                                    <a href="https://www.linkedin.com/in/kumaranurag2/" target="_blank" className="btn btn-dark text-light blog-button">hire me</a>
+                                    <a href="https://www.linkedin.com/in/kumaranurag2/" target="_blank" rel="noopener noreferrer" className="btn btn-dark text-light blog-button">hire me</a>
                                 </div>
                             </div>
                         </div>

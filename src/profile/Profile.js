@@ -1,9 +1,6 @@
 import React from 'react';
-import NavBar from "../home/components/NavBar";
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
 import '../style/style.css';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Typewriter} from "../home/containers/Typewriter";
 import Footer from "../footer";
 
 class Profile extends React.Component {
@@ -42,7 +39,7 @@ class Profile extends React.Component {
                                 <div className="card-body">
                                     <div className="row">
                                         <div className="col-6">
-                                            <img className="card-img shadow p-3 mb-5 rounded" src={require("../static/images/pp.jpg")} />
+                                            <img className="card-img shadow p-3 mb-5 rounded" alt="" src={require("../static/images/pp.jpg")} />
                                         </div>
                                         <div className="col-6">
                                             <ul className="list-group list-group-flush blog-profile-info text-white">

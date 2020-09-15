@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Switch, Route} from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const HomeProjects = () =>
     <div className="container-fluid mt-5">
@@ -16,7 +16,7 @@ const HomeProjects = () =>
                     <div className="col-6 padding-0">
                         <Link to="/projects">
                             <div className="card bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/237/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/237/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Visual Common Sense and Object Detection in Computer Vision Web App
                                         <br/>
@@ -33,7 +33,7 @@ const HomeProjects = () =>
                     <div className="col-6 padding-0">
                         <Link to="/projects">
                             <div className="card bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1003/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1003/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Fake Job Postings Prediction Web App
                                         <br/>
@@ -53,7 +53,7 @@ const HomeProjects = () =>
                     <div className="col-6 padding-0">
                         <Link to="/projects">
                             <div className="card bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1011/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1011/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Image Super Resolution using Deep Convolution Neural Network
                                         <br/>
@@ -71,7 +71,7 @@ const HomeProjects = () =>
                     <div className="col-6 padding-0">
                         <Link to="/projects">
                             <div className="card bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1025/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1025/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Movie Recommend System Using k-means clustering
                                         <br/>
@@ -88,7 +88,7 @@ const HomeProjects = () =>
                     <div className="col-6 padding-0">
                         <Link to="/projects">
                             <div className="card bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1041/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1041/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Inventory Management Web Application in Angular and Express NodeJS with SKU Scanning
                                         <br/>
@@ -105,7 +105,7 @@ const HomeProjects = () =>
                     <div className="col-6 padding-0">
                         <Link to="/projects">
                             <div className="card bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1047/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1047/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Course Editor Web Application in React, Redux and Java SpringBoot
                                         <br/>

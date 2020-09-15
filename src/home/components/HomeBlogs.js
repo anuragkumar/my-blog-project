@@ -17,7 +17,7 @@ const HomeBlogs = () =>
                     <div className="col-12 padding-0 bg-dark">
                         <Link to="/blogs">
                             <div className="card border-0 bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1051/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1051/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Story of a boy</h5>
                                     <p className="card-text">Adventures of a boy through the world, fighting constantly
@@ -30,7 +30,7 @@ const HomeBlogs = () =>
                         </Link>
                         <Link to="/blogs">
                             <div className="card border-0 bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1052/500/300" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1052/500/300" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">How to create Microservices in Java SpringBoot</h5>
                                     <p className="card-text">Demonstrates a simple web application and how microservices saves
@@ -47,7 +47,7 @@ const HomeBlogs = () =>
                     <div className="col-12 padding-0 bg-dark">
                         <Link to="/blogs">
                             <div className="card border-0 bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1054/500/200" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1054/500/200" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">How to understand Algorithms and Time Complexity</h5>
                                     <p className="card-text">Easier way to understand the myths of how good an algorithm is
@@ -58,7 +58,7 @@ const HomeBlogs = () =>
                         </Link>
                         <Link to="/blogs">
                             <div className="card border-0 bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/104/500/200" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/104/500/200" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Couple who went through time and time again</h5>
                                     <p className="card-text">A couple where they didn't chose each other but went through
@@ -71,7 +71,7 @@ const HomeBlogs = () =>
                         </Link>
                         <Link to="/blogs">
                             <div className="card border-0 bg-dark text-white blog-project-card">
-                                <img className="card-img" src="https://picsum.photos/id/1063/500/200" alt="Card image" />
+                                <img className="card-img" src="https://picsum.photos/id/1063/500/200" alt="" />
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Thoughts and never-ending Dilemmas</h5>
                                     <p className="card-text">A person's thoughts and choices put together in a single place</p>
